@@ -56,6 +56,7 @@ export const globalStyles = globalCss({
   },
   html: {
     scrollBehavior: "smooth",
+    
   },
   a: { textDecoration: "none" },
 });
@@ -63,10 +64,11 @@ export const globalStyles = globalCss({
 export const GlobalStyle: React.FC<GlobalStyleProps> = ({ children }) => {
   const theme = createTheme({
     colors: {
-      brand1: "#5C63ED",
+      brand1: "#37927b",
+      // brand1: "#5C63ED",
       brand2: "#7D82F1",
       brand3: "#BEC1F8",
-      brand4: "#E7E8FC",
+      brand4: "#ebfaf7",
       grey1: "#212529",
       grey2: "#495057",
       grey3: "#CED3D7",

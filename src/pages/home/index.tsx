@@ -32,20 +32,17 @@ export const Home = (): JSX.Element => {
         <Container>
           <HeaderContent>
             <Text as="h1" type="heading1" color="grey5">
-              Criando experiências por meio da tecnologia{" "}
+            Desenvolvedora WEB FullStack FrontEnd & BackEnd 
             </Text>
-            <Text type="body1" color="grey6">
-              Sou estudante de programação na Kenzie Academy Brasil, participei
-              de diversos projetos resolvendo problemas de alto nível e
-              desenvolvendo habilidades
+            <Text as="h4" type="heading2" color="grey1">
+            Criando experiências por meio da tecnologia{" "}
             </Text>
+          
             <HeaderButtonsArea>
-              <Button as="a" href="#projetos">
-                Projetos
+               <Button as="a" href="#projetos">
+                Ver projetos
               </Button>
-              <Button as="a" href="#tecnologias" type="btLink" color="grey5">
-                Tecnologias
-              </Button>
+
             </HeaderButtonsArea>
           </HeaderContent>
         </Container>
@@ -67,13 +64,18 @@ export const Home = (): JSX.Element => {
           <ProjectAreaWrapperColumns>
             <ProjectsAreaSocialMediaMessage>
               <Text as="h2" type="heading4" color="grey1">
+                Quem sou eu:
+              </Text>
+              <Text type="body1" color="grey1">
+              Designer em transição de carreira, graduada pela Universidade Estadual Paulista (Unesp).
+              Ao estudar sobre UX/UI me interressei pelo código. Como estudante da Kenzie Academy desenvolvi
+              diversos projetos de alto nível, com sprints e entregas em maioria semanais, evolui muito no último ano. Com dedicação me mantenho em constante aprendizado para progredir e estar sempre atualizada.
+            </Text>
+
+            <Text as="h2" type="heading4" color="grey1">
                 Vamos trocar uma ideia?
               </Text>
-              <Text as="p" type="body1" color="grey2">
-                No linkedIn sempre estou compartilhando meus processos diários
-                para desenvolver esses projetos e estou disposto a trocar
-                algumas ideias por lá
-              </Text>
+        
               <Button
                 type="primary"
                 target="_blank"
@@ -82,17 +84,16 @@ export const Home = (): JSX.Element => {
               >
                 Acessar perfil no LinkedIn
               </Button>
+              <Text as="h2" type="heading4" color="grey1">
+                Email:
+              </Text>
+              <Text as="h2" type="body1" color="grey1">
+              gabigfontoura@gmail.com
+              </Text>
             </ProjectsAreaSocialMediaMessage>
             <ProjectsAreaContent>
-              <Text type="body1" color="grey2" css={{ marginBottom: "$2" }}>
-                Projetos
-              </Text>
-              <Text as="h3" type="heading2" color="grey1">
-                Originalidade e{" "}
-                <Text as="span" color="brand1" type="heading2">
-                  dedicação
-                </Text>{" "}
-                em cada detalhe
+              <Text  type="heading2" color="grey1" css={{ marginBottom: "$2" }}>
+                Principais Projetos
               </Text>
               <Project />
             </ProjectsAreaContent>

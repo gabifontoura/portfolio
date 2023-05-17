@@ -4,6 +4,7 @@ import { Text } from "../../styles/Text"
 
 export const Project = styled("article", {
   marginTop: "4rem",
+
 });
 
 export const ProjectStack = styled(Flex, {

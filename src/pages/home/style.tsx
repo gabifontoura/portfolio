@@ -17,7 +17,7 @@ export const Header = styled("header", {
 
 export const HeaderContent = styled("div", {
   maxWidth: "100%",
-  width: "36rem",
+  width: "52rem",
   display: "flex",
   flexDirection: "column",
   gap: "$2",

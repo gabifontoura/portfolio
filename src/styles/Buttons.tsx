@@ -34,10 +34,11 @@ export const Button = styled('button', {
                 }
             },
             icon: {
-                borderColor: "$grey5",
+                borderColor: "$brand1",
                 backgroundColor: "transparent",
                 "&:hover": {
                     backgroundColor: "$grey5",
+                    borderColor: "$brand2",
                 }
             },
             circle: {
